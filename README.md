@@ -1,4 +1,4 @@
-# Classical ML Baselines for PADS
+# PADS Classification
 
 This repository contains the experiments used in the thesis
 *Parkinson’s Disease Classification from Smartwatch Inertial Measurement Unit Signals
@@ -10,7 +10,7 @@ strict **subject-level cross-validation** protocol throughout.
 The pipeline is intentionally split into **feature extraction** and **model evaluation**
 stages to ensure reproducibility, avoid data leakage, and allow efficient reuse of features.
 
-## Overview
+## Classical Machine Learning Experiments
 
 Implemented baselines include:
 
@@ -88,14 +88,14 @@ The CLI entry point is the package itself:
 ```bash
 python -m baselines --help
 ```
-1. Create cross-validation splits (only if missing)
+1. Create cross-validation splits if missing (ignore if you clone this repo directly)
 If `cv_splits.csv` already exists in the project root, this step can be skipped.
 Generate subject-level CV splits (cv_splits.csv):
 
 ```bash
 python -m baselines make-splits
 ```
-2. Extract BOSS features (only if missing)
+2. Extract BOSS features if missing (ignore if you clone this repo directly)
 If `baselines/boss/features_bin/` already contains the cached features, you can
 skip this step.
 Required for movement-based and stacked models.
@@ -210,9 +210,6 @@ baselines, including:
 * preprocessed/file_list.csv — subject and label metadata
 * questionnaire/ — questionnaire data (used where applicable)
 * patients/ - patients metadata (json files)
-
-All data must already be prepared; the notebook does not perform raw data
-preprocessing.
 
 ### Executing the Notebook and Reproducing Results
 
