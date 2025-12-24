@@ -1,0 +1,9 @@
+numpy
+pandas
+scipy
+scikit-learn
+pyts
+joblib
+catboost
+lightgbm
+pydantic<2

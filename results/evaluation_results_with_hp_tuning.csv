@@ -1,0 +1,31 @@
+Dataset,Model,Best_Hyperparameters,Mean_CV_Score,Std_CV_Score,Test_Score
+pd_vs_hc_movement_only,CA-LSTM-FCN-EarlyFusion,"{'lstm_hidden_size': 128, 'fcn_filters': [128, 256, 128], 'dropout': 0.1}",0.6627389277389277,0.06992083855152796,0.5886363636363636
+pd_vs_hc_movement_only,Transformer-EarlyFusion,"{'d_model': 128, 'nhead': 4, 'num_layers': 3, 'dropout': 0.2}",0.7567016317016317,0.0718361958809357,0.5130681818181818
+pd_vs_hc_movement_only,1D-CNN-EarlyFusion,{'dropout': 0.1},0.687898212898213,0.03585948028223663,0.5704545454545454
+pd_vs_hc_movement_only,LSTM-EarlyFusion,"{'hidden_size': 128, 'num_layers': 1, 'dropout': 0.1}",0.6068181818181818,0.06946875813901449,0.5210227272727272
+pd_vs_hc_movement_only,MLP-EarlyFusion,{'dropout': 0.2},0.620897435897436,0.0643507232975488,0.5392045454545454
+pd_vs_hc_questionnaire_only,CA-LSTM-FCN-EarlyFusion,"{'lstm_hidden_size': 128, 'fcn_filters': [128, 256, 128], 'dropout': 0.2}",0.8993512043512043,0.03697445085386007,0.7852272727272727
+pd_vs_hc_questionnaire_only,Transformer-EarlyFusion,"{'d_model': 128, 'nhead': 4, 'num_layers': 2, 'dropout': 0.2}",0.9377466977466978,0.03946447182992781,0.8920454545454546
+pd_vs_hc_questionnaire_only,1D-CNN-EarlyFusion,{'dropout': 0.1},0.882094017094017,0.038403768234289266,0.8295454545454546
+pd_vs_hc_questionnaire_only,LSTM-EarlyFusion,"{'hidden_size': 128, 'num_layers': 1, 'dropout': 0.1}",0.8842501942501944,0.03795315235315781,0.7136363636363636
+pd_vs_hc_questionnaire_only,MLP-EarlyFusion,{'dropout': 0.2},0.9093667443667443,0.026099482122839197,0.8477272727272727
+pd_vs_hc_combined,CA-LSTM-FCN-EarlyFusion,"{'lstm_hidden_size': 128, 'fcn_filters': [128, 256, 128], 'dropout': 0.1}",0.9347668997668996,0.021983367861238688,0.8073863636363636
+pd_vs_hc_combined,Transformer-EarlyFusion,"{'d_model': 256, 'nhead': 8, 'num_layers': 2, 'dropout': 0.2}",0.9430341880341881,0.028354283460566055,0.8789772727272727
+pd_vs_hc_combined,1D-CNN-EarlyFusion,{'dropout': 0.2},0.9272416472416474,0.04705387470909685,0.7357954545454546
+pd_vs_hc_combined,LSTM-EarlyFusion,"{'hidden_size': 128, 'num_layers': 1, 'dropout': 0.1}",0.8866239316239316,0.014101413537949936,0.7579545454545454
+pd_vs_hc_combined,MLP-EarlyFusion,{'dropout': 0.1},0.7653768453768455,0.07350378623446505,0.6289772727272727
+pd_vs_dd_movement_only,CA-LSTM-FCN-EarlyFusion,"{'lstm_hidden_size': 128, 'fcn_filters': [128, 256, 128], 'dropout': 0.2}",0.701996278575226,0.04232502615126076,0.6664031620553359
+pd_vs_dd_movement_only,Transformer-EarlyFusion,"{'d_model': 256, 'nhead': 4, 'num_layers': 2, 'dropout': 0.1}",0.6887028176501861,0.02938761542613818,0.5541501976284585
+pd_vs_dd_movement_only,1D-CNN-EarlyFusion,{'dropout': 0.1},0.6261669324827219,0.029415595977363106,0.5612648221343874
+pd_vs_dd_movement_only,LSTM-EarlyFusion,"{'hidden_size': 64, 'num_layers': 2, 'dropout': 0.2}",0.5864593301435408,0.0112808005815538,0.5173913043478261
+pd_vs_dd_movement_only,MLP-EarlyFusion,{'dropout': 0.1},0.5939845826687932,0.030928460516973844,0.5976284584980237
+pd_vs_dd_questionnaire_only,CA-LSTM-FCN-EarlyFusion,"{'lstm_hidden_size': 128, 'fcn_filters': [64, 128, 64], 'dropout': 0.2}",0.6892663476874004,0.04826738743861622,0.650197628458498
+pd_vs_dd_questionnaire_only,Transformer-EarlyFusion,"{'d_model': 256, 'nhead': 8, 'num_layers': 3, 'dropout': 0.1}",0.7324906964380649,0.07974857221353038,0.6790513833992095
+pd_vs_dd_questionnaire_only,1D-CNN-EarlyFusion,{'dropout': 0.1},0.6819829877724614,0.06718307340521298,0.7462450592885375
+pd_vs_dd_questionnaire_only,LSTM-EarlyFusion,"{'hidden_size': 128, 'num_layers': 2, 'dropout': 0.1}",0.6855289739500267,0.06916494917921115,0.7316205533596838
+pd_vs_dd_questionnaire_only,MLP-EarlyFusion,{'dropout': 0.2},0.6826209463051569,0.05261744154152115,0.6573122529644269
+pd_vs_dd_combined,CA-LSTM-FCN-EarlyFusion,"{'lstm_hidden_size': 128, 'fcn_filters': [64, 128, 64], 'dropout': 0.2}",0.7366321105794791,0.06490078526209823,0.6047430830039526
+pd_vs_dd_combined,Transformer-EarlyFusion,"{'d_model': 128, 'nhead': 4, 'num_layers': 3, 'dropout': 0.1}",0.7340882509303561,0.06504292181231515,0.6047430830039526
+pd_vs_dd_combined,1D-CNN-EarlyFusion,{'dropout': 0.1},0.7512387028176502,0.06247713760202844,0.749802371541502
+pd_vs_dd_combined,LSTM-EarlyFusion,"{'hidden_size': 128, 'num_layers': 2, 'dropout': 0.1}",0.6741679957469431,0.03626018430472278,0.633596837944664
+pd_vs_dd_combined,MLP-EarlyFusion,{'dropout': 0.2},0.588729399255715,0.05434968893017241,0.5086956521739131
