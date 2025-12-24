@@ -56,7 +56,6 @@ Thumbs.db
 tmp/
 temp/
 .cache/
-baselines/boss/features_bin/
 catboost_info/
 .ipynb_checkpoints/
 .venv/
@@ -69,7 +68,3 @@ pyvenv.cfg
 .DS_Store
 *.tmp
 *.log
-
-# data artifacts
-preprocessed/
-*.zip
